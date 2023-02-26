@@ -1,6 +1,5 @@
 const express = require("express")
 const app = express()
-const data = require("./data")
 const path = require("path")
 const register = require("./routes/register")
 const chat = require("./routes/chat")
